@@ -2,6 +2,7 @@ package com.example.kotlinsubmission
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         itemAdapter.setOnItemClickCallback(object : ItemAdapter.OnItemClickCallback{
             override fun onItemClicked(data: Item) {
+                Log.d("Here it is", "It Worked")
                 showSelectedHero(data)
             }
         })

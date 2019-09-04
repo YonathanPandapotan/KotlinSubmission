@@ -30,6 +30,7 @@ class ItemAdapter(val listHero: ArrayList<Item>) : RecyclerView.Adapter<ItemAdap
 
         holder.judul.text = judul
         holder.desc.text = desc
+        holder.itemView.setOnClickListener{onItemClickCallback.onItemClicked(listHero[holder.adapterPosition])}
     }
 
 
