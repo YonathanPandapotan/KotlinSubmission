@@ -14,14 +14,11 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var item : RecyclerView
     private var list : ArrayList<Item> = arrayListOf()
-    private lateinit var toolbar : Toolbar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        toolbar = findViewById(R.id.toolbar)
-        setSupportActionBar(toolbar)
 
         item = findViewById(R.id.recycler)
 

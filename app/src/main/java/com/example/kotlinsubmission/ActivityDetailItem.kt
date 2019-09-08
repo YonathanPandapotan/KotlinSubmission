@@ -15,8 +15,6 @@ class ActivityDetailItem : AppCompatActivity() {
     lateinit var desc : TextView
     lateinit var carouselView: CarouselView
 
-    lateinit var toolbar : Toolbar
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_item)
@@ -37,8 +35,6 @@ class ActivityDetailItem : AppCompatActivity() {
         carouselView.setPageCount(baru.image.size)
         carouselView.setImageListener(imageListener)
 
-        toolbar = findViewById(R.id.toolbar)
-        setSupportActionBar(toolbar)
         getSupportActionBar()?.setTitle("Detail Item")
 
     }
