@@ -1,5 +1,6 @@
 package com.example.kotlinsubmission
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -42,13 +43,14 @@ class MainActivity : AppCompatActivity() {
 
         itemAdapter.setOnItemClickCallback(object : ItemAdapter.OnItemClickCallback{
             override fun onItemClicked(data: Item) {
-                Log.d("Here it is", "It Worked")
-                showSelectedHero(data)
+                selectItem(data)
             }
         })
     }
 
-    private fun showSelectedHero(hero: Item) {
-        Toast.makeText(this, "Kamu memilih " + hero.judul, Toast.LENGTH_SHORT).show()
+    private fun selectItem(item: Item) {
+        var baru : Intent = Intent(this@MainActivity, ActivityDetailItem::class.java)
+        baru.putExtra("item", item)
+        startActivity(baru)
     }
 }

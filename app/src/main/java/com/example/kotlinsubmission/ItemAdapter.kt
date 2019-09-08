@@ -8,7 +8,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
-class ItemAdapter(val listHero: ArrayList<Item>) : RecyclerView.Adapter<ItemAdapter.ListViewHolder>() {
+class ItemAdapter(val listItem: ArrayList<Item>) : RecyclerView.Adapter<ItemAdapter.ListViewHolder>() {
 
     private lateinit var onItemClickCallback : OnItemClickCallback
 
@@ -22,15 +22,15 @@ class ItemAdapter(val listHero: ArrayList<Item>) : RecyclerView.Adapter<ItemAdap
     }
 
     override fun getItemCount(): Int {
-        return listHero.size
+        return listItem.size
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (judul, desc) = listHero[position]
+        val (judul, desc) = listItem[position]
 
         holder.judul.text = judul
         holder.desc.text = desc
-        holder.itemView.setOnClickListener{onItemClickCallback.onItemClicked(listHero[holder.adapterPosition])}
+        holder.itemView.setOnClickListener{onItemClickCallback.onItemClicked(listItem[holder.adapterPosition])}
     }
 
 

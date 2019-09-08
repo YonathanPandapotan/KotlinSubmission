@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -20,6 +21,7 @@
     </Toolbar>
 
     <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:src="@drawable/another_furutaka"
@@ -28,5 +30,25 @@
             app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
     </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yonathan Pandapotan"
+            android:textSize="12pt"
+            android:id="@+id/nama"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yonabaho@gmail.com"
+            android:textSize="8pt"
+            android:id="@+id/email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nama" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
