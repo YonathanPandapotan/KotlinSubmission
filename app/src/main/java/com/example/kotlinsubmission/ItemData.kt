@@ -8,8 +8,8 @@ object ItemData{
         "Scharnhorst",
         "Warspite",
         "Gangut",
-        "Bismarck",
-        "Midway",
+        "Johnston",
+        "New Mexico",
         "Furutaka",
         "Gajah Mada"
     )
@@ -21,8 +21,8 @@ object ItemData{
         "Scharnhorst-Class BattleCruiser",
         "Queen-Elizabeth Battleship",
         "Gangut-Class BattleCruiser",
-        "Gangut-Class BattleCruiser",
-        "Gangut-Class BattleCruiser",
+        "Fletcher-Class Destroyer",
+        "New Mexico-Class Battleship",
         "Gangut-Class BattleCruiser",
         "Gangut-Class BattleCruiser"
     )
@@ -52,9 +52,12 @@ object ItemData{
         "Gangut (Гангут) merupakan kapal pertama dari Kapal Perang Kelas-Gangut Angkatan Laut Kekaisaran Rusia yang dibangun sebelum Perang Dunia 1. Namanya diambil dari kemenangan Russia atas Angkatan Laut Swedia pada Pertempuran Gangut tahun 1714. Dirinya selesai dibangun pada musim dingin tahun 1914-1915, tetapi tidak siap bertempur hingga pertengahan 1915. Tugasnya adalah untuk menjaga Teluk Finlandia terhadap jerman, yang mana tidak pernah mencoba menerobos masuk, sehingga Gangut menghabiskan waktunya berlatih dan memberikan perlindungan pada beberapa operasi militer. Kru-nya bergabung dengan pemberontakan Armada Baltic setelah Revolusi Febuari dan bergabung dengan Bolsheviks pada tahun 1918. Gangut sempat di non-atifkan pada 1918 karena kurangnya tenaga kerja dan tidak ditugaskan kembali hingga 1925, yang mana dirinya sudah berganti nama menjadi Oktyabrskaya Revolutsiya (Октябрьская революция: Revolusi Oktober).\n" +
                 "\n" +
                 "Dirinya mengalami rekonstruksi antara tahun 1931 dan 1934 dengan mesin, kendali tembak baru dan superstruktur yang lebih besar. Selama Pertempurang Musim Dingin dia sempat membombardir barisan artileri di pesisir pantai Finlandia. Persenjataan anti serangan udaranya ditingkatkan pada awal 1941, tepat sebelum Operasi Barbarossa. Dia memberikan bantukan arterli terhadap Jerman pada pengepungan Leningrad meskipun di bom tiga kali dan mengalami perbaikan selama setahun. Setelah di tugaskan kembali setelah perang dunia, Oktyabrskaya Revolutsiya berubah menjadi kapal latihan pada 1954 sebelum akhirnya mulai dibongkar pada tahun 1956.",
-        "asd",
-        "asd",
-        "asd",
+        "USS Johnston merupakan destroyer Kelas Fletcher era Perang Dunia 2 yang melayani angkatan laut Amerika Serikat. Dia merupakan kapal angkatan laut pertama yang namanya berasal dari Lieutenant John V. Johnston. Kapal ini terkenal atas tindakan beraninya pada Peperangan Samar. Kapal destroyer kecil ini yang hanya dipersenjatai dengan senjata tidak lebih besar 5 inchi (12,7 cm) meriam dan torpedo, berani memimpin serangan segelintir kapal kecil yang secara tidak sengaja dibiarkan tidak terlindungi disepanjang jalur armada Angkatan Laut Jepang yang dipimpin oleh Kapal Perang dan Penjelajah. Pengorbanan Johnston dan unit kecil kawalannya \"Taffy 3\" membantu menghentikan Kekuatan Utama Admiral Kurta dari menyerang pendaratan pasukan Amerika Serikat dan akhirnya mengakibatkan kerugian yang lebih parah pada pasukan Jepang.",
+        "USS New Mexico merupakan Kapal Perang milik Angkatan Laut Amerika Serikat dari 1918 hingga 1946. Dia merupakan kapal pertama dari tiga kapal perang Kelas New Mexico, sekaligus juga kapal pertama yang dinamakan atas negara New Mexico. Dia mulai dibuat pada 14 Oktober 1915 di galangan kapal New York, dan selesai pada 23 April 1917 dan mulai bertugas pada 20 Mei 1918. New Mexico merupakan kapal pertama yang dilengkapi dengan transmisi listrik turbo, yang mampu mendorong dia mendapatkan kecepatan jelajah 10 Knots (19 km/h). Sesaat setelah menyelesaikan pelatihan awal, New Mexico mengawal kapal yang membawa Presiden Woodrow Wilson ke Brest, Prancis untuk men-tanda tangani Perjanjian Versailes.\n" +
+                "\n" +
+                "Peperangan pertama New Mexico pada Perang Dunia ke-2 terjadi ketika patroli di Lautan Atlantik. Dia kembali ke Pasifik setelah Jepang menyerang Pearl Harbor, dan berpartisipasi pada pemboman pantai pada operasi di Attu dan Kiska, Tarawa, Kepulauan Marshall, Kepulauan Mariana dan Palau, Leyte, Luzon dan Okinawa. New Mexico sempat beberapa kali ternkena serangan kamikaze. Kapal ini hadir di Teluk Tokyo pada penanda-tangan Kekalahan Jepang pada 2 September 1945. 4 hari lagi, dia berlayar kembali ke Amerika Serikat dan tiba di Boston pada 17 Oktober.\n" +
+                "\n" +
+                "New Mexico di bebastugaskan di Boston pada 19 Juli 1946, dan namanya dihapus dari Daftar Kapal Angkatan Laut pada 25 Febuari 1947. Kemudian dia dijual ke Lipsett Division untuk dibongkar pada November 1947, tetapi usaha untuk membawa kapal ke Newark, New Jersey, untuk pembongkaran mengalami kendala karena penolakan dari Pemerintah Lokal. Kapal Kecil lokal dikirm untuk memblokade jalan Kapal Perang tersebut dan juga kapal khusus Lipsett, sedangkan Penjaga Pantai Amerika Serikat menyatakan akan memastikan keamanan perjalanan. ",
         "asd",
         "asd"
     )
@@ -66,8 +69,8 @@ object ItemData{
         arrayOf(R.drawable.scharnhorst1, R.drawable.scharnhorst2, R.drawable.scharnhorst3, R.drawable.scharnhorst4),
         arrayOf(R.drawable.warspite1, R.drawable.warspite2, R.drawable.warspite3),
         arrayOf(R.drawable.gangut1, R.drawable.gangut2, R.drawable.gangut3),
-        arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3),
-        arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3),
+        arrayOf(R.drawable.johnston1),
+        arrayOf(R.drawable.newmexico1, R.drawable.newmexico2, R.drawable.newmexico3),
         arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3),
         arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3)
     )
@@ -79,8 +82,8 @@ object ItemData{
         R.mipmap.grflag,
         R.mipmap.ukflag,
         R.mipmap.ussrflag,
-        R.mipmap.grflag,
-        R.mipmap.grflag,
+        R.mipmap.usflag,
+        R.mipmap.usflag,
         R.mipmap.grflag,
         R.mipmap.grflag
     )
