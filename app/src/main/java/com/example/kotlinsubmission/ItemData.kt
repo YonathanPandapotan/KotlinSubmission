@@ -63,13 +63,26 @@ object ItemData{
         arrayOf(R.drawable.kongou1, R.drawable.kongou2, R.drawable.kongou3, R.drawable.kongou4),
         arrayOf(R.drawable.nagato1, R.drawable.nagato2, R.drawable.nagato3, R.drawable.nagato4),
         arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3),
-        arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3),
+        arrayOf(R.drawable.scharnhorst1, R.drawable.scharnhorst2, R.drawable.scharnhorst3, R.drawable.scharnhorst4),
         arrayOf(R.drawable.warspite1, R.drawable.warspite2, R.drawable.warspite3),
-        arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3),
+        arrayOf(R.drawable.gangut1, R.drawable.gangut2, R.drawable.gangut3),
         arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3),
         arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3),
         arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3),
         arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3)
+    )
+
+    private val flag = arrayOf(
+        R.mipmap.jpflag,
+        R.mipmap.jpflag,
+        R.mipmap.grflag,
+        R.mipmap.grflag,
+        R.mipmap.ukflag,
+        R.mipmap.ussrflag,
+        R.mipmap.grflag,
+        R.mipmap.grflag,
+        R.mipmap.grflag,
+        R.mipmap.grflag
     )
 
     val data : ArrayList<Item>
@@ -82,6 +95,7 @@ object ItemData{
                 get.shipClass = shipClass[value]
                 get.detail = desc[value]
                 get.image = image[value]
+                get.flag = flag[value]
                 result.add(get)
             }
 
