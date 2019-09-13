@@ -38,7 +38,7 @@ class ActivityDetailItem : AppCompatActivity() {
         carouselView.setPageCount(baru.image.size)
         carouselView.setImageListener(imageListener)
 
-        getSupportActionBar()?.setTitle("Detail Item")
+        getSupportActionBar()?.setTitle("Detail ${baru.judul}")
 
     }
 

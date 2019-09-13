@@ -3,14 +3,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/profile"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/profile"
         app:showAsAction="ifRoom|withText"
         android:title="Profile">
-    </item>
-    <item
-            android:id="@+id/anothermenu"
-            android:icon="@drawable/ic_launcher_background"
-            app:showAsAction="never"
-            android:title="Profile">
     </item>
 </menu>
