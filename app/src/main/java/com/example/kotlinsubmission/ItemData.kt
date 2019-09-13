@@ -10,8 +10,8 @@ object ItemData{
         "Gangut",
         "Johnston",
         "New Mexico",
-        "Furutaka",
-        "Gajah Mada"
+        "Richeliu",
+        "Nagato"
     )
 
     private val shipClass = arrayOf(
@@ -23,8 +23,8 @@ object ItemData{
         "Gangut-Class BattleCruiser",
         "Fletcher-Class Destroyer",
         "New Mexico-Class Battleship",
-        "Gangut-Class BattleCruiser",
-        "Gangut-Class BattleCruiser"
+        "Richeliu-Class Battleship",
+        "Nagato-Class Battleship"
     )
 
     private val desc = arrayOf(
@@ -58,8 +58,16 @@ object ItemData{
                 "Peperangan pertama New Mexico pada Perang Dunia ke-2 terjadi ketika patroli di Lautan Atlantik. Dia kembali ke Pasifik setelah Jepang menyerang Pearl Harbor, dan berpartisipasi pada pemboman pantai pada operasi di Attu dan Kiska, Tarawa, Kepulauan Marshall, Kepulauan Mariana dan Palau, Leyte, Luzon dan Okinawa. New Mexico sempat beberapa kali ternkena serangan kamikaze. Kapal ini hadir di Teluk Tokyo pada penanda-tangan Kekalahan Jepang pada 2 September 1945. 4 hari lagi, dia berlayar kembali ke Amerika Serikat dan tiba di Boston pada 17 Oktober.\n" +
                 "\n" +
                 "New Mexico di bebastugaskan di Boston pada 19 Juli 1946, dan namanya dihapus dari Daftar Kapal Angkatan Laut pada 25 Febuari 1947. Kemudian dia dijual ke Lipsett Division untuk dibongkar pada November 1947, tetapi usaha untuk membawa kapal ke Newark, New Jersey, untuk pembongkaran mengalami kendala karena penolakan dari Pemerintah Lokal. Kapal Kecil lokal dikirm untuk memblokade jalan Kapal Perang tersebut dan juga kapal khusus Lipsett, sedangkan Penjaga Pantai Amerika Serikat menyatakan akan memastikan keamanan perjalanan. ",
-        "asd",
-        "asd"
+        "Richeliu merupakan Kapal Perang Cepat Prancis dan merupakan kapal pertama dari Kapal Perang Kelas Richeliu. Dibangun atas response terhadap Kelas Littorio milik Itali, Richeliu dibangun berdasarkan pendahulunya Kelas Dunkerque dengan posisi aransemen senjata utamanya yang tidak biasa. Meskipun begitu ukuran meriamnya diperbesar menjadi Meriam 38 CM (dibandingkan meriam 33 cm milik Dunkerque), kemudian baja pelindung juga dipertebal untuk mengantisipasi senjata dengan kaliber yang sama. Richeliu mulai dibangun pada 1935 dan diluncurkan pada 1939 tepat sebelum pecahnya Perang Dunia ke-2 di Eropa. Ketika perang melawan Jerman semakin mungkin, pembangunan Richeliu semakin dipercepat untuk mempersiapkan dirinya untuk bertugas pada April 1940.\n" +
+                "\n" +
+                "Selesai hanya sehari sebelum Jerman menang Peperangan Prancis di Juni, Richeliu mundur ke wilayah Afrika Barat Prancis untuk tidak ditangkap. Disana, dia kerap kali diserang oleh Pasukan Inggris yang bertujuan untuk memaksa Richeliu bergabung dengan Free French Naval Forces atau menenggelamkannya; penyerangan ini termasuk pada Operasi Militer Catapult pada Juli 1940 dan Peperangan Dakar pada bulan September.\n" +
+                "\n" +
+                "Rusak pada kedua serangan tersebut, Richeliu berlahan-lahan diperbaiki sebelum akhirnya jatuh ke tangan pasukan Free French setelah Invasi Sekutu ke Afrika Utara pada Nopember 1942. Setelah dikirim ke Amerika Serikat untuk perbaikan, dia bergabung dengan Angkatan Laut Inggris pada awal 1944 sebelum di tugaskan di Perairan Timur untuk berbagai operasi militer melawan pasukan Jepang di Laut Hindia.\n" +
+                "\n" +
+                "Richeliu merupakan bagian dari pasukan yang memerdekakan Singapur setelah kekalahan Jepang pada bulan September dan dia kemudian bertugas di perairan Indochina miliki Prancis dalam usaha untuk mengembalikan kekuasanan kolonial Prancis.",
+        "Nagato merupakan kapal perang yang dibangun untuk Angkatan Laut Kekaisaran Jepang. Selesai pada tahun 1920, dia langsung ditugaskan untuk membawa kebutuhan untuk korban gempa Kanto pada tahun 1923. Nagato kemudian mengalami renovasi selama tahun 1934-1936 yang meningkatkan armor dan peralatan mesin serta superstructure yang dibangun ulang. Nagato sempat mengikuti perang Sino-Jepang kedua pada tahun 1937 dan merupakan flagship Admiram Yamamoto Isoroku pada penyerangan Pearl Harbor. Tetapi Nagato hanya bertugas untuk mengawal kapal yang mundur dan tidak berpartisipasi pada penyerangannya.\n" +
+                "\n" +
+                "Selain paritispasinya pada Peperangan Midway Juni 1942, yang mana dia juga tidak ikut bertarung. Nagato menghabiskan sebagian besar 2 tahun pertama perang Pasifik di perairan Jepang. Dirinya sempat dipindahkan ke Truk pada pertengahan tahun 1943, tetapi tidak mengikuti pertempuran apapun hingga Pertemurang di Lautan Philipina, dimana dia diserang oleh pesawat tempur Amerika. Nagato tidak pernah menembak meriam utamanya terhadap kapal lawan hingga Pertemuran di teluk Leyte pada bulan Oktober. Dia mengalami kerusakan ringan pada pertempuran dan pulang ke jepang pada bulan berikutnya. Pada masanya, pihak Jepang sudah mulai kekurangan bahan bakar dan memutuskan untuk tidak memperbaikinya sepenuhnya. Nagato mengalami perubahan menjadi penangkal serangan udara tetap dan ditugaskan untuk menjaga pesisir pantai. Dia diserang pada Juli 1945 sebagai bagian dari Operasi Militer Amerika untuk menghancurkan sisa-sisa Kapal Induk Angkatan Laut Jepang, tetapi hanya mengalami kerusakan ringan dan menjadi satu-satunya Kapal Perang Jepang yang selamat dari Perang Dunia ke-2. Pada pertengahan tahun 1946, Nagato di jadikan sebagai alat pengetesan senjata nuklir pada Operasi Crossroads. Dia berhasil selamat dari test pertama dengan kerusakan minim, tetapi tenggelam pada test kedua."
     )
 
     private val image = arrayOf(
@@ -71,8 +79,8 @@ object ItemData{
         arrayOf(R.drawable.gangut1, R.drawable.gangut2, R.drawable.gangut3),
         arrayOf(R.drawable.johnston1),
         arrayOf(R.drawable.newmexico1, R.drawable.newmexico2, R.drawable.newmexico3),
-        arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3),
-        arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3)
+        arrayOf(R.drawable.richeliu1, R.drawable.richeliu2, R.drawable.richeliu3, R.drawable.richeliu4),
+        arrayOf(R.drawable.nagato1, R.drawable.nagato2, R.drawable.nagato3, R.drawable.nagato3)
     )
 
     private val flag = arrayOf(
@@ -84,8 +92,8 @@ object ItemData{
         R.mipmap.ussrflag,
         R.mipmap.usflag,
         R.mipmap.usflag,
-        R.mipmap.grflag,
-        R.mipmap.grflag
+        R.mipmap.frlag,
+        R.mipmap.jpflag
     )
 
     val data : ArrayList<Item>
