@@ -11,7 +11,7 @@ object ItemData{
         "Johnston",
         "New Mexico",
         "Richeliu",
-        "Nagato"
+        "Belfast"
     )
 
     private val shipClass = arrayOf(
@@ -24,7 +24,7 @@ object ItemData{
         "Fletcher-Class Destroyer",
         "New Mexico-Class Battleship",
         "Richeliu-Class Battleship",
-        "Nagato-Class Battleship"
+        "Town-Class Light Cruiser"
     )
 
     private val desc = arrayOf(
@@ -71,7 +71,7 @@ object ItemData{
     )
 
     private val image = arrayOf(
-        arrayOf(R.drawable.kongou1, R.drawable.kongou2, R.drawable.kongou3, R.drawable.kongou4),
+        arrayOf(R.drawable.kongou1, R.drawable.kongou2, R.drawable.kongou3),
         arrayOf(R.drawable.nagato1, R.drawable.nagato2, R.drawable.nagato3, R.drawable.nagato4),
         arrayOf(R.drawable.bismarck1, R.drawable.bismarck2, R.drawable.bismarck3),
         arrayOf(R.drawable.scharnhorst1, R.drawable.scharnhorst2, R.drawable.scharnhorst3, R.drawable.scharnhorst4),
@@ -80,7 +80,7 @@ object ItemData{
         arrayOf(R.drawable.johnston1),
         arrayOf(R.drawable.newmexico1, R.drawable.newmexico2, R.drawable.newmexico3),
         arrayOf(R.drawable.richeliu1, R.drawable.richeliu2, R.drawable.richeliu3, R.drawable.richeliu4),
-        arrayOf(R.drawable.nagato1, R.drawable.nagato2, R.drawable.nagato3, R.drawable.nagato3)
+        arrayOf(R.drawable.belfast1, R.drawable.belfast2, R.drawable.belfast3, R.drawable.belfast4)
     )
 
     private val flag = arrayOf(
@@ -93,7 +93,7 @@ object ItemData{
         R.mipmap.usflag,
         R.mipmap.usflag,
         R.mipmap.frlag,
-        R.mipmap.jpflag
+        R.mipmap.ukflag
     )
 
     val data : ArrayList<Item>
